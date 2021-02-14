@@ -15,11 +15,12 @@
 # Use: make [TARGET] [PLATFORM-OVERRIDES]
 #
 # Build Targets:
-#      <Put a description of the supported targets here>
+#     .o .i .asm .d compile-all build clean
 #
 # Platform Overrides:
-#      <Put a description of the supported Overrides here
+#      Supports HOST (default) and MSP432
 #
+# Levy Gabriel, February 13 2021
 #------------------------------------------------------------------------------
 include sources.mk
 
