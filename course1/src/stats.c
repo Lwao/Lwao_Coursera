@@ -54,14 +54,14 @@ void print_statistics(unsigned char * data, unsigned length){
   printf("6 - Minimum = %d\n", find_minimum(data, length));
 }
 
-
+#ifdef VERBOSE
 void print_array(unsigned char * data, unsigned length){
   for(unsigned i=0; i<length; i++){
     printf("%d ", data[i]);
   }
   printf("\n\n");
 }
-
+#endif
 
 float find_median(unsigned char * data, unsigned length){
   float median;
